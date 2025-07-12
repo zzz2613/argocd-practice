@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: deploy-test01
 spec:
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app.kubernetes.io/name: web-deploy
